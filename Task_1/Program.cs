@@ -13,8 +13,9 @@ for (int i = 0; i < 3; i++)
     for (int j = 0; j < 4; j++)
     {
         matrix[i, j] = new Random().NextDouble()*10.0;
-        Console.WriteLine(matrix[i,j] + " ");
+        Console.Write(Math.Round(matrix[i,j], 2) + " ");
     }
+    Console.WriteLine();
 }
 
 
