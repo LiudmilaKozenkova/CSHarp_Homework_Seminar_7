@@ -18,9 +18,7 @@ Console.WriteLine("Введите позиции элемента в масси�
 string line = Console.ReadLine();
 string[] element = line.Split(' ');
 int m = Convert.ToInt32(element[0]);
-// Console.WriteLine(m);
 int n = Convert.ToInt32(element[1]);
-// Console.WriteLine(n);
 
 int find = matrix[m, n];
 bool Contains(int[,] array, int find)

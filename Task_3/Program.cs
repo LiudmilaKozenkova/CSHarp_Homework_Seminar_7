@@ -21,5 +21,10 @@ double average2 = (matrix[0, 1] + matrix[1, 1] + matrix[2, 1]) / 3.0;
 double average3 = (matrix[0, 2] + matrix[1, 2] + matrix[2, 2]) / 3.0;
 double average4 = (matrix[0, 3] + matrix[1, 3] + matrix[2, 3]) / 3.0;
 
+double av1 = Math.Round(average1, 2);
+double av2 = Math.Round(average2, 2);
+double av3 = Math.Round(average3, 2);
+double av4 = Math.Round(average4, 2);
+
 Console.Write("Среднее арифметическое каждого столбца: ");
-Console.WriteLine($"{Math.Round(average1, 2)}, {Math.Round(average2, 2)},{Math.Round(average3, 2)}, {Math.Round(average4, 2)}");
+Console.WriteLine($"{av1}, {av2}, {av3}, {av4}");
